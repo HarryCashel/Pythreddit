@@ -29,9 +29,29 @@ Potential
 Wireframes
 ------
 
+##### Landing page / home page
+The entry page. Top threads. User can log in/ sign up.
+Threads should be accessible without logging in.
 ![wire](/wire-frames/Page%201.png)
 
+##### Log in / sign up form
+When a user clicks either login or sign up the modal/overlay should pop up
+A modal for the user to sign in to their account or register for one.
+Very simple. Can sign up or log in with socials or with username/password.
 ![wire](/wire-frames/Page%202.png)
+
+##### More in depth look at the main page / outlay
+Users (logged in or not) should be able to browse the web apps comments/threads/subs
+Votes should be visible to everyone. If thread creator has chosen an image/video it should be visible on main page before opening.
 ![wire](/wire-frames/Page%203.png)
+
+##### Profile settings / info
+General info for the user to fill out.
+can change their linked email address, display name and upload their avatar here.
 ![wire](/wire-frames/Page%204.png)
+
+##### Threads
+Content header/ Image/video at top if there is one. followed by creator text.
+Users can comment, upvote thread and other users comments.
+Owner can delete only his own comments + main thread.
 ![wire](/wire-frames/Page%205.png)

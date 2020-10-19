@@ -24,6 +24,7 @@ Potential
 ------
 * Admin accounts
 * Search
+* Direct messaging between accounts
 
 
 Wireframes
@@ -44,7 +45,7 @@ Votes should be visible to everyone. If thread creator has chosen an image/video
 ![wire](/wire-frames/Page%203.png)
 ##### Profile settings / info
 General info for the user to fill out.
-can change their linked email address, display name and upload their avatar here.
+Can change their linked email address, display name and upload their avatar here.
 ![wire](/wire-frames/Page%204.png)
 ##### Threads
 Content header/ Image/video at top if there is one. followed by creator text.

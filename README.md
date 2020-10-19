@@ -30,3 +30,8 @@ Wireframes
 ------
 
 ![wire](/wire-frames/Page%201.png)
+
+![wire](/wire-frames/Page%202.png)
+![wire](/wire-frames/Page%203.png)
+![wire](/wire-frames/Page%204.png)
+![wire](/wire-frames/Page%205.png)

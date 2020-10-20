@@ -7,6 +7,7 @@ Pythreddit
 Pythreddit will be a reddit-like clone. 
 
 This was built to explore my knowledge of databases, apis, Python and assess my ability to create a web app from the ground up.
+Practise a real-world web application.
 
 This app aims to be a news/social network where users can sign up, browse many different topics and share their 
 own opinions. Users can interact with one another through comments. Users may fill their profile with information and set a profile photo.
@@ -52,3 +53,18 @@ Content header/ Image/video at top if there is one. followed by creator text.
 Users can comment, upvote thread and other users comments.
 Owner can delete only his own comments + main thread.
 ![wire](/wire-frames/Page%205.png)
+
+
+Threads
+------
+* A subreddit is a collection of threads/posts
+* All posts will have a title (req)
+* Posts can have links, videos, photos, text (optional)
+* All posts are submitted by users/mods/admin
+* Each post can have upvotes/downvotes. The sum of these should be displayed
+* Posts should display total number of comments
+
+##### Comments
+* Users comment on posts
+* Users can comment on comments
+* Comments can be upvoted & downvoted

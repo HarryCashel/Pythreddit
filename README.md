@@ -68,3 +68,14 @@ Threads
 * Users comment on posts
 * Users can comment on comments
 * Comments can be upvoted & downvoted
+
+Installation
+======
+
+`git clone https://github.com/HarryCashel/T2A3.git`
+
+`pip install -r requirements.txt`
+
+Navigate to the root directory and run:
+
+`python src/main.py`

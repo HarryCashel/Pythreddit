@@ -1,4 +1,5 @@
 import requests
 import django
 
-x = requests.post()
+def add(x, y):
+    return x + y

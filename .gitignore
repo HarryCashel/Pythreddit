@@ -5,4 +5,6 @@ Lib/
 Scripts/
 pyvenv.cfg
 .idea/
-
+venv
+__pycache__
+.mypy_cache

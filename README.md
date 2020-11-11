@@ -100,5 +100,5 @@ Database
 6. A sub is owned by one user - a user can own many subs
 
 Questions
-1. Will each subreddit/post/comment need an id?
-![wire](/docs/db/Pythreddit draft ERD.png)
+1. Will each subreddit/post/comment need an id?   
+![wire](/docs/db/PythredditdraftERD.png)

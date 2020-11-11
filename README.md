@@ -99,6 +99,8 @@ Database
 5. Are upvotes/downvotes owned, or just calculated?
 6. A sub is owned by one user - a user can own many subs
 
-Questions
-1. Will each subreddit/post/comment need an id   
+Questions/ to do
+1. Will each subreddit/post/comment need an id?
+2. Posts/comments/threads will need a datetime added
+
 ![wire](/docs/db/PythredditdraftERD.png)

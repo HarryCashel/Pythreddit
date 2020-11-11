@@ -72,10 +72,20 @@ Threads
 Installation
 ======
 
-`git clone https://github.com/HarryCashel/T2A3.git`
+* Clone this repo:`git clone https://github.com/HarryCashel/T2A3.git`
+* Change directory into the repo: `cd Pythreddit`
+* Install venv: `pip install venv`
+* Create virtual environment: `python3 -m venv venv`
+* Active the virtual environment: `source venv/venv/active` 
+* Install the dependencies: `pip install -r requirements.txt`
+* Run the app: `python src/main.py`
 
-`pip install -r requirements.txt`
+CI/CD
+------
 
-Navigate to the root directory and run:
+The CI/CD pipeline was created using Github Actions. 
+It uses Python3.8, Pip3 and runs on the latest stable version of Ubuntu. 
+The pipeline is started on a push to master.
 
-`python src/main.py`
+Once it has pulled from master it installs the dependencies form requirements.txt 
+and then it runs the tests in the tests directory

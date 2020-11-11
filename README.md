@@ -89,3 +89,16 @@ The pipeline is started on a push to master.
 
 Once it has pulled from master it installs the dependencies form requirements.txt 
 and then it runs the tests in the tests directory
+
+Database
+------
+1. Each user can have multiple posts - posts belong to only one user
+2. Each user can belong to many subs - A sub can have many users
+3. A sub can have many posts - Posts belong to one sub
+4. Each comment belongs to one users
+5. Are upvotes/downvotes owned, or just calculated?
+6. A sub is owned by one user - a user can own many subs
+
+Questions
+1. Will each subreddit/post/comment need an id?
+![wire](/docs/db/Pythreddit draft ERD.png)

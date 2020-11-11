@@ -101,4 +101,4 @@ Database
 
 Questions
 1. Will each subreddit/post/comment need an id?
-![wire](/docs/db/Pythreddit draft ERD.png)
+![wire](/docs/db/"Pythreddit draft ERD".png)

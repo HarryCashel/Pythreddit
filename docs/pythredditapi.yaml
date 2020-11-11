@@ -202,13 +202,13 @@ paths:
           description: "Unable to update profile"
         "404":
           description: "User not found"
-  /user/{username}/new_thread:
+  /user/{username}/new_post:
     post:
       tags:
       - "subreddit"
       summary: "Create new thread"
       description: ""
-      operationId: "createThreadPost"
+      operationId: "createPost"
       consumes:
       - "multipart/form-data"
       produces:
@@ -227,12 +227,7 @@ paths:
         type: "string"
       - name: "date"
         in: "formData"
-        description: "blog post date"
-        required: true
-        type: "number"
-      - name: "place(s)"
-        in: formData
-        description: "featured place(s) in blog post"
+        description: "post date"
         required: true
         type: "string"
       - name: "content"
@@ -240,7 +235,7 @@ paths:
         description: "thread content"
         required: true
         type: "string"
-      - name: "blog_photos"
+      - name: "post photos"
         in: "formData"
         description: ""
         required: false
@@ -250,3 +245,22 @@ paths:
           description: "Successful operation"
         "400":
           description: "Unable to create thread"
+  user/{username}/posts/{post_id}:
+    get:
+      tags:
+      - "subreddits"
+      summary: "View post by post id"
+      description: "Points to a single post"
+      operationId: "viewPost"
+      produces:
+        - "application/xml"
+        - "application/json"
+      parameters:
+        - name: "username"
+          in: "path"
+          description: "fetched upon successful login"
+          required: true
+          type: "string"
+        - name: "post_id"
+          in: "path"
+          description: "fetched on link to post"

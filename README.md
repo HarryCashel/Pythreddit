@@ -1,6 +1,6 @@
 Reddit Clone 
 ===========
-[Trello Board (unfinished)](https://trello.com/b/U2TWuOIi/t3-idea-reddit)
+![Trello Board (unfinished)](https://trello.com/b/U2TWuOIi/t3-idea-reddit)
 
 Pythreddit
 ----------
